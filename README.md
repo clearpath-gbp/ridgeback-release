@@ -1,3 +1,30 @@
+## ridgeback (melodic) - 0.2.2-2
+
+The packages in the `ridgeback` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic ridgeback` on `Thu, 18 Jul 2019 19:18:10 -0000`
+
+These packages were released:
+- `ridgeback_control`
+- `ridgeback_description`
+- `ridgeback_msgs`
+- `ridgeback_navigation`
+
+Version of package(s) in repository `ridgeback`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.2.2-1`
+- new version: `0.2.2-2`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## ridgeback (melodic) - 0.2.2-1
 
 The packages in the `ridgeback` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic ridgeback` on `Thu, 18 Jul 2019 17:55:54 -0000`
