@@ -2,6 +2,11 @@
 Changelog for package ridgeback_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2022-05-17)
+------------------
+* Bump CMake version to avoid CMP0048 warning.
+* Contributors: Tony Baltovski
+
 0.3.1 (2022-01-12)
 ------------------
 
