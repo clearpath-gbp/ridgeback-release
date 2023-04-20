@@ -1,0 +1,12 @@
+Source: ros-noetic-ridgeback-msgs
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-std-msgs, ros-noetic-catkin, ros-noetic-message-generation
+Homepage: http://wiki.ros.org/ridgeback_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ridgeback-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-std-msgs, ros-noetic-message-runtime
+Description: Messages exclusive to Ridgeback, especially for representing low-level motor commands and sensors.
