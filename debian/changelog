@@ -1,0 +1,144 @@
+ros-noetic-ridgeback-control (0.3.3-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 20 Apr 2023 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.3.2-1focal) focal; urgency=high
+
+  * Enable subst_value when loading config_extras (#48 <https://github.com/ridgeback/ridgeback/issues/48>)
+  * Add twist_mux
+  * Bump CMake version to avoid CMP0048 warning.
+  * Contributors: Chris I-B, Joey Yang, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 17 May 2022 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.3.1-1focal) focal; urgency=high
+
+  * add predict_to_current_time param
+  * Add envar to set joy device (#44 <https://github.com/ridgeback/ridgeback/issues/44>)
+    * Add the RIDGEBACK_JOY_DEVICE envar, move the control_extras to the end of control.launch so it can be used to override anything
+    * Don't use the envar for the joy device when the PS3 flag is enabled
+    * Add the default device for the ps3 configuration
+    * Remove the joy device from the ps4 config; we explicitly set it with the envar
+  * Contributors: Chris I-B, Ebrahim
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 12 Jan 2022 05:00:00 -0000
+
+ros-noetic-ridgeback-control (0.3.0-1focal) focal; urgency=high
+
+  * Fix the default device for the PS4 controller to match with the updated udev rules for bionic
+  * Contributors: Chris I-B
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 19 May 2020 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.2.3-1focal) focal; urgency=high
+
+  * Fix controller odom bug, it works well in multi robots case now
+  * Contributors: yizheng
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 04 Mar 2020 05:00:00 -0000
+
+ros-noetic-ridgeback-control (0.2.2-1focal) focal; urgency=high
+
+  * Changed boost::shared_ptr to urdfdom shared pointers
+  * ridgeback_control: fixed missing calculation of wheels_k_ (regression from daa4bc9050f786ed092fab911dd217da6febeae0)
+  * Simplify boolean logic for wheel separation checks
+  * Allow URDF to be optional
+  * Contributors: Catherine Wong, Chad Rockey, Johannes Meyer, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 25 Mar 2019 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.2.1-1focal) focal; urgency=high
+
+  * Added support for planar motion using interactive markers.
+  * [ridgeback_control] Made PS4 default controller.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Apr 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.2.0-1focal) focal; urgency=high
+
+  * Removed tight default rolling window
+  * Updated rolling window for odom responsiveness.  Minor changes to control and urdf syntax for kinetic
+  * Updated to Package format 2.
+  * [ridgeback_control] Added ability to override default control parameters with environment variables.
+  * Contributors: Dave Niewinski, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Apr 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.10-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 26 Jun 2017 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.9-1focal) focal; urgency=high
+
+  * Updated maintainer.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 17 Apr 2017 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.8-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 30 Sep 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.7-1focal) focal; urgency=high
+
+  * Fixed teleop angular axis for PS4.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 18 Jul 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.6-1focal) focal; urgency=high
+
+  * Added support for PS4 controller.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 25 May 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.5-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 22 Apr 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.4-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 18 Apr 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.3-1focal) focal; urgency=high
+
+  * Updated URDF for physical changes.
+  * Updated control limits.
+  * Removed yaw estimate from robot_localization.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 02 Mar 2016 05:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.2-1focal) focal; urgency=high
+
+  * Added wheel separation override.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 22 Dec 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.1-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 01 Dec 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-control (0.1.0-1focal) focal; urgency=high
+
+  * Initial ridgeback release.
+  * Contributors: Mike Purvis, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 19 Nov 2015 05:00:00 -0000
+
+

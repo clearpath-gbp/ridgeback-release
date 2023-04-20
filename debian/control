@@ -1,0 +1,12 @@
+Source: ros-noetic-ridgeback-control
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-controller-interface, ros-foxy-controller-manager, ros-foxy-nav-msgs, ros-foxy-realtime-tools, ros-foxy-urdf, ros-noetic-catkin, ros-noetic-roslaunch <!nocheck>, ros-noetic-tf
+Homepage: http://wiki.ros.org/ridgeback_control
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ridgeback-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-controller-interface, ros-foxy-controller-manager, ros-foxy-interactive-marker-twist-server, ros-foxy-joint-state-controller, ros-foxy-joy, ros-foxy-nav-msgs, ros-foxy-realtime-tools, ros-foxy-robot-localization, ros-foxy-teleop-twist-joy, ros-foxy-twist-mux, ros-foxy-urdf, ros-noetic-tf, ros-noetic-topic-tools
+Description: Controllers for Ridgeback
