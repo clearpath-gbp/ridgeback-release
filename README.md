@@ -1,3 +1,30 @@
+## ridgeback (noetic) - 0.3.4-1
+
+The packages in the `ridgeback` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ridgeback -r noetic -t noetic` on `Thu, 15 Jun 2023 15:34:18 -0000`
+
+These packages were released:
+- `ridgeback_control`
+- `ridgeback_description`
+- `ridgeback_msgs`
+- `ridgeback_navigation`
+
+Version of package(s) in repository `ridgeback`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback.git
+- release repository: https://github.com/clearpath-gbp/ridgeback-release.git
+- rosdistro version: `0.3.3-2`
+- old version: `0.3.3-2`
+- new version: `0.3.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ridgeback (noetic) - 0.3.3-2
 
 The packages in the `ridgeback` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ridgeback -r noetic -t noetic` on `Wed, 03 May 2023 12:23:34 -0000`
